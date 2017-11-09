@@ -9,11 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCorePal.WebStorage.Abstr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1AF29B55-BB2D-4AEA-BC14-2D22DE8A8449}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWeb", "NetCoreWeb\NetCoreWeb.csproj", "{77A2ADF6-98F7-4F31-8C26-03F119F802FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWeb", "Tests\NetCoreWeb\NetCoreWeb.csproj", "{77A2ADF6-98F7-4F31-8C26-03F119F802FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net45Web", "Net45Web\Net45Web.csproj", "{03060907-2F7E-4365-87EF-A45D2EB85006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCorePal.WebStorage.AliyunOSS", "NetCorePal.WebStorage.AliyunOSS\NetCorePal.WebStorage.AliyunOSS.csproj", "{1B776CEB-6C62-4980-8BAA-B82718DACF4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePal.WebStorage.AliyunOSS", "NetCorePal.WebStorage.AliyunOSS\NetCorePal.WebStorage.AliyunOSS.csproj", "{1B776CEB-6C62-4980-8BAA-B82718DACF4E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BD5795B-D47F-4A84-A5A3-F1A0BF9B03E1}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +36,6 @@ Global
 		{77A2ADF6-98F7-4F31-8C26-03F119F802FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A2ADF6-98F7-4F31-8C26-03F119F802FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77A2ADF6-98F7-4F31-8C26-03F119F802FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03060907-2F7E-4365-87EF-A45D2EB85006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03060907-2F7E-4365-87EF-A45D2EB85006}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03060907-2F7E-4365-87EF-A45D2EB85006}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03060907-2F7E-4365-87EF-A45D2EB85006}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B776CEB-6C62-4980-8BAA-B82718DACF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1B776CEB-6C62-4980-8BAA-B82718DACF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B776CEB-6C62-4980-8BAA-B82718DACF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,7 +46,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{77A2ADF6-98F7-4F31-8C26-03F119F802FA} = {1AF29B55-BB2D-4AEA-BC14-2D22DE8A8449}
-		{03060907-2F7E-4365-87EF-A45D2EB85006} = {1AF29B55-BB2D-4AEA-BC14-2D22DE8A8449}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0C6DB95-7C15-4282-B6AB-888018F93CE8}

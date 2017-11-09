@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetCorePal.WebStorage.Local\NetCorePal.WebStorage.Local.csproj" />
+    <ProjectReference Include="..\..\NetCorePal.WebStorage.Local\NetCorePal.WebStorage.Local.csproj" />
   </ItemGroup>
 
 </Project>
