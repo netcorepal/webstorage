@@ -10,6 +10,10 @@ namespace NetCorePal.WebStorage
     public class LocalWebStorageProvider : WebStorageProvider
     {
 #if NETSTANDARD2_0
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="env"></param>
         public LocalWebStorageProvider(Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
         {
             this.Env = env;
@@ -20,7 +24,10 @@ namespace NetCorePal.WebStorage
             return Path.Combine(Env.WebRootPath, filePath.TrimStart('/').Replace('/', '\\'));
         }
 #else
-
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="server"></param>
         public LocalWebStorageProvider(HttpServerUtilityBase server)
         {
             this.Server = server;
