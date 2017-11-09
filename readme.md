@@ -2,6 +2,10 @@
 
 Web site storage component
 
+Support ASP.NET 4.0+
+
+Support ASP.NET Core 2.0+
+
 
 ## NetCorePal.WebStorage.Abstractions
 
