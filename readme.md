@@ -52,7 +52,8 @@ public IActionResult Index([FromServices]WebStorageProvider provider)
 
 #### NetCorePal.WebStorage.AliyunOSS
 
-.NET Framework 4.0 +
+Support .NET Framework 4.0 +
+
 .NET Core not support yet
 
 ```
