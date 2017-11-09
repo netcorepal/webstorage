@@ -8,22 +8,24 @@
     <PackageProjectUrl>https://github.com/netcorepal/webstorage</PackageProjectUrl>
     <RepositoryUrl>https://github.com/netcorepal/webstorage.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Authors>netcorepal</Authors>
+    <Company>netcorepal</Company>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net40|AnyCPU'">
-    <DocumentationFile>bin\Debug\net40\NetCorePal.WebStorage.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\net40\NetCorePal.WebStorage.Local.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net40|AnyCPU'">
-    <DocumentationFile>bin\Release\net40\NetCorePal.WebStorage.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\net40\NetCorePal.WebStorage.Local.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\NetCorePal.WebStorage.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\NetCorePal.WebStorage.Local.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\NetCorePal.WebStorage.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard2.0\NetCorePal.WebStorage.Local.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='net40' OR '$(TargetFramework)'=='net45'">

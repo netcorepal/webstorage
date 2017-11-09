@@ -9,6 +9,8 @@
     <RepositoryUrl>https://github.com/netcorepal/webstorage.git</RepositoryUrl>
     <PackageTags>webstorage storage aliyun oss</PackageTags>
     <PackageReleaseNotes>not support .net core yet</PackageReleaseNotes>
+    <Authors>netcorepal</Authors>
+    <Company>netcorepal</Company>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net40|AnyCPU'">
