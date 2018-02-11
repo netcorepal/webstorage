@@ -1,16 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net40</TargetFrameworks>
+    <TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
     <RootNamespace>NetCorePal.WebStorage</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Web storage component aliyun OSS provider</Description>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/netcorepal/webstorage.git</RepositoryUrl>
     <PackageTags>webstorage storage aliyun oss</PackageTags>
-    <PackageReleaseNotes>not support .net core yet</PackageReleaseNotes>
+    <PackageReleaseNotes>+ add .net standard 2.0 support
+notice: we use NetCorePal.Aliyun.OSS.SDK for .net standard 2.0 support.
+NetCorePal.Aliyun.OSS.SDK forked from official sdk，only added .net standard 2.0 compile target
+see https://github.com/netcorepal/aliyun-oss-csharp-sdk</PackageReleaseNotes>
     <Authors>netcorepal</Authors>
     <Company>netcorepal</Company>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net40|AnyCPU'">
@@ -23,6 +27,10 @@
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net40'">
     <PackageReference Include="Aliyun.OSS.SDK" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="NetCorePal.Aliyun.OSS.SDK" Version="2.8.0" />
   </ItemGroup>
 
   <ItemGroup>

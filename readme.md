@@ -56,9 +56,7 @@ public IActionResult Index([FromServices]WebStorageProvider provider)
 
 ## NetCorePal.WebStorage.AliyunOSS
 
-Support .NET Framework 4.0 +
-
-.NET Core not support yet
+Support .NET Framework 4.0 +, .net standard 2.0
 
 ```
 WebStorageProvider webStorageProvider = new AliyunOSSWebStorageProvider(endpoint, bucketName, accessKeyId, accessKeySecret);
