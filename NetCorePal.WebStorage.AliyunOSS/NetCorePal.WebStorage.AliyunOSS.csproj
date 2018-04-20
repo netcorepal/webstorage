@@ -8,13 +8,10 @@
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/netcorepal/webstorage.git</RepositoryUrl>
     <PackageTags>webstorage storage aliyun oss</PackageTags>
-    <PackageReleaseNotes>+ add .net standard 2.0 support
-notice: we use NetCorePal.Aliyun.OSS.SDK for .net standard 2.0 support.
-NetCorePal.Aliyun.OSS.SDK forked from official sdk，only added .net standard 2.0 compile target
-see https://github.com/netcorepal/aliyun-oss-csharp-sdk</PackageReleaseNotes>
+    <PackageReleaseNotes>+ fix .net core "Operation is not supported on this platform" error</PackageReleaseNotes>
     <Authors>netcorepal</Authors>
     <Company>netcorepal</Company>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net40|AnyCPU'">
@@ -30,7 +27,7 @@ see https://github.com/netcorepal/aliyun-oss-csharp-sdk</PackageReleaseNotes>
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-    <PackageReference Include="NetCorePal.Aliyun.OSS.SDK" Version="2.8.0" />
+    <PackageReference Include="NetCorePal.Aliyun.OSS.SDK" Version="2.8.0.2" />
   </ItemGroup>
 
   <ItemGroup>
